@@ -25,6 +25,7 @@ function App() {
     });
   };
 
+  // function de suppression
   function suppDepense(param) {
     setAllDepense(allDepense.filter((article) => article.timestamp !== param));
   }
